@@ -28,6 +28,10 @@
     overflow-x: hidden;
   }
 
+  button{
+    font:inherit;
+  }
+
   img,
   picture,
   video,
