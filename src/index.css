@@ -28,9 +28,8 @@
     overflow-x: hidden;
   }
 
-  button{
-    font:inherit;
-  }
+   
+  
 
   img,
   picture,
@@ -39,3 +38,37 @@
   svg{
     display: block;
   }
+
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+  #root,
+  #__next {
+    isolation: isolate;
+  }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
